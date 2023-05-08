@@ -1,0 +1,33 @@
+@import '../../val.scss';
+
+#content {
+    margin-top: $spaceBetween;
+    width: $a4Width - 3cm - $asideSize - $spaceBetween;
+}
+
+.bold-line {
+    width: 100%; 
+    border: thin solid $colorBorders; 
+    background-color: $colorBorders; 
+    color: $colorBorders; 
+    border-radius: 5mm; 
+    margin: 1mm 0 2mm 0;
+}
+
+h4 {text-transform: uppercase; color: $colorBorders; font-weight: 500;}
+
+.cv-element {
+    margin-bottom: $spaceBetween;
+}
+
+.group-of-cv-elements div.cv-element:last-child {
+    margin-bottom: 0;
+}
+
+.ant {
+    margin-bottom: $spaceBetweenLess;
+}
+
+.anthill div.ant:last-child {
+    margin-bottom: 0;
+}

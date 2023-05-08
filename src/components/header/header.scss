@@ -1,0 +1,63 @@
+@import '../../val.scss';
+
+header {
+    height: 60px;
+    background-color: $colorLetterSpace;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+h1 {
+    font-size: $h1Size;
+    font-weight: 700;
+    color: $colorLightGray;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: $a4Width * 1.15;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    div {
+        width: 30%;
+        text-align: left;
+
+        &:nth-child(2) {
+            text-align: center;
+        }
+            
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        opacity: 0.33;
+    }
+
+    :checked+label {
+        opacity: 1;
+    }
+
+    label:hover {
+        opacity: 1;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        pointer-events: none;
+    }
+}

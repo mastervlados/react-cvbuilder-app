@@ -1,0 +1,12 @@
+@import './val.scss';
+@import './page.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Geneva, sans-serif;
+    font-size: $defaultFontSize;
+    font-weight: 400;
+    box-sizing: border-box;
+    list-style: none;
+}

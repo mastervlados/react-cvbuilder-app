@@ -1,0 +1,61 @@
+@import '../../val.scss';
+
+.person-details {
+    position: relative;
+    height: $portraitSize;
+    width: $a4Width - $portraitSize - 3cm - $spaceBetween;
+
+    p {
+        font-size: $defaultFontSize + 1pt;
+        margin-bottom: $spaceBetweenLess;
+    }
+}
+
+h2 {
+    font-size: $h2Size;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: $h3Size; 
+    display: inline-block; 
+    background: $colorBorders; 
+    padding: 0.5mm 1mm;
+    color: $colorLetterSpace; 
+    border-radius: 1mm;
+    max-width: 105mm;
+    font-weight: 500;
+    margin-bottom: $spaceBetween;
+}
+
+#sum {
+    font-size: $h3Size;
+}
+
+#currency {
+    font-size: $h3Size;
+    font-weight: 300;
+    margin-left: 1mm;
+}
+
+#contacts {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    .bordered {
+        display: block;
+        border: 0.5mm solid $colorBorders;
+        padding: 1mm 2mm;
+        border-radius: 5mm;
+        
+        span {
+            color: $colorBorders;
+            font-size: $defaultFontSize + 1pt;
+
+            &:nth-child(1) {
+                margin-right: 1mm;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "person": {
+        "fullName": "Елизаров Владислав Ильич",
+        "position": "Frontend Developer (React)",
+        "salary": {
+            "amount": 50000,
+            "currencyCode": 810
+        },
+        "info": {
+            "birthday": "16.06.1995",
+            "citizen": "гражданин РФ",
+            "employment": "emfull",
+            "workSchedule": "wsfull"
+        },
+        "contacts": {
+            "phone": "+7 (906) 227-69-42",
+            "mail": "velizarovdev@gmail.com",
+            "currentLocation": "spb"
+        }
+    }
+}

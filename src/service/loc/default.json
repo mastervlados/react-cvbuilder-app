@@ -1,0 +1,16 @@
+{
+    "currency": {
+        "810": "RUB",
+        "840": "USD",
+        "978": "EUR"
+    },
+    "languageLevels": {
+        "na": "Native",
+        "a1": "Basic",
+        "a2": "Elementary",
+        "b1": "Intermediate",
+        "b2": "Upper Intermediate",
+        "c1": "Advanced",
+        "c2": "Proficiency"
+    }
+}

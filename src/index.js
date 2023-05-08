@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './index.scss'
+
+import App from './components/app'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <div>Hell Done</div>
-);
-
+  <div id="wrapper">
+    <App />
+  </div>
+)

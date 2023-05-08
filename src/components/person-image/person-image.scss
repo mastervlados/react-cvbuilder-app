@@ -1,0 +1,9 @@
+@import '../../val.scss';
+
+.person-image {
+    width: $portraitSize;
+    height: $portraitSize;
+    background: url('../../../public/assets/img/photo.jpg') center center no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}

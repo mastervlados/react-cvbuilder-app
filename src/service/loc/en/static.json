@@ -1,0 +1,73 @@
+{
+    "employment": {
+        "emfull": "full time",
+        "empart": "part time",
+        "emproj": "project work",
+        "emvolu": "volunteering",
+        "emwork": "work placement"
+    },
+    "workSchedule": {
+        "wsfull": "full day",
+        "wsshif": "shift schedule",
+        "wsflex": "flexible schedule",
+        "wsremo": "remote working",
+        "wsrota": "rotation based work"
+    },
+    "location": {
+        "spb": "Saint Petersburg, Russia",
+        "son": "online",
+        "mon": "mentoring online",
+        "rem": "Remote"
+    },
+    "constants": {
+        "htwe": "Work experience",
+        "htrc": "Recently completed projects",
+        "hted": "Education",
+        "htad": "Additional education & Certificates",
+        "htpw": "Previous work experience",
+        "htks": "Key skills",
+        "htts": "Technical skills",
+        "htss": "Soft skills",
+        "htla": "Languages",
+        "hthl": "Helpful links",
+        "htai": "Additional<br>information",
+        "htab": "About me",
+        "htin": "Interests",
+        "htre": "References"
+    },
+    "relocation": {
+        "relnot": "Not ready for relocation",
+        "relyes": "Ready for relocation"
+    },
+    "trips": {
+        "trinot": "Not ready for business trips",
+        "triyes": "Ready for business tripsм",
+        "trisom": "Ready for short business trips",
+        "trirar": "Ready for rare business tripsм"
+    },
+    "education": {
+        "eduba": "Bachelor degree",
+        "eduma": "Masteral degree"
+    },
+    "months": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+    },
+    "projectLabels": {
+        "projdes": "Description",
+        "projlan": "Languages",
+        "projenv": "Environments",
+        "projpos": "Position",
+        "projrol": "Role"
+    }
+}

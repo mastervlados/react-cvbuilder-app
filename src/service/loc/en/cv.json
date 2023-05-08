@@ -1,0 +1,21 @@
+{
+    "person": {
+        "fullName": "Vladislav Elizarov",
+        "position": "Frontend Developer (React)",
+        "salary": {
+            "amount": 700,
+            "currencyCode": 840
+        },
+        "info": {
+            "birthday": "16.06.1995",
+            "citizen": "Russian citizen",
+            "employment": "emfull",
+            "workSchedule": "wsfull"
+        },
+        "contacts": {
+            "phone": "+7 (906) 227-69-42",
+            "mail": "velizarovdev@gmail.com",
+            "currentLocation": "spb"
+        }
+    }
+}

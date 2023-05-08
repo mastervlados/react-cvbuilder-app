@@ -1,0 +1,10 @@
+@import '../../val.scss';
+
+#cv-webpage {
+    margin: 1cm auto;
+    background-color: $colorLetterSpace;
+    width: $a4Width;
+    height: $a4Height;
+    padding: 12mm 15mm;
+    box-shadow: 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
