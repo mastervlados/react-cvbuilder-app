@@ -1,4 +1,21 @@
 {
+    "skills": {
+        "frontend": [
+            "ReactJS",
+            "ExtJS(Диалоги, Визарды, Формы)",
+            "JavaScript(ES5, ES6, ESNext)",
+            "CSS(float, flex, grid, @media, Bootstrap, SCSS)",
+            "HTML"
+        ],
+        "backend": [
+            "Databases(MongoDB, PostgreSQL)"
+        ],
+        "other": [
+            "Git(commit, push, pull, merge)",
+            "Алгоритмы",
+            "Структуры данных"
+        ]
+    },
     "person": {
         "fullName": "Елизаров Владислав Ильич",
         "position": "Frontend Developer (React)",

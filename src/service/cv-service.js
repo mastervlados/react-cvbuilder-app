@@ -25,7 +25,7 @@ export default class CVService {
                 break
         }
     }
-
+    
     _getEmploymentLabel(key) {
         return this.staticData.employment[key]
     }
@@ -77,6 +77,10 @@ export default class CVService {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
     }
     
+    getSectionLabel = (key) => {
+        return this.staticData.constants[key]
+    }
+
     getPersonDetails = () => {
         const person = this.cvData.person
         return {
@@ -98,5 +102,45 @@ export default class CVService {
                 currentLocation: this._getLocationLabel(person.contacts.currentLocation)
             }
         }
+    }
+
+    getKeySkillsFromCategory = (category) => {
+        /**
+         * Input:
+         * {
+         *  frontend: [...]
+         *  backend: [...]
+         *  other: [...]
+         * }
+         * 
+         * Expected:
+         *  frontend: [[], [], []]
+         */
+        const data = this.cvData.skills
+        let keySkillsInCategory = []
+        const regexp = /^([a-zA-Zа-яА-Я0-9\s]+)$|^(.*)\((.*)\)$/
+        data[category].forEach((array) => {
+            const result = array.match(regexp)
+            if (result[1] !== undefined && result[1] !== null) {
+                keySkillsInCategory = [
+                    ...keySkillsInCategory,
+                    [result[1]]
+                ]
+            } else {
+                const subSkills = result[3]
+                                    .split(',')
+                                    .map((skill) => skill.trim())
+
+                keySkillsInCategory = [
+                    ...keySkillsInCategory,
+                    [
+                        result[2], 
+                        ...subSkills
+                    ]
+                ]
+            }
+        })
+
+        return keySkillsInCategory
     }
 }

@@ -1,4 +1,21 @@
 {
+    "skills": {
+        "frontend": [
+            "ReactJS",
+            "ExtJS(Dialogues, Wizards, Forms)",
+            "JavaScript(ES5, ES6, ESNext)",
+            "CSS(float, flex, grid, @media, Bootstrap, SCSS)",
+            "HTML"
+        ],
+        "backend": [
+            "Databases(MongoDB, PostgreSQL)"
+        ],
+        "other": [
+            "Git(commit, push, pull, merge)",
+            "Algorithms",
+            "Data structures"
+        ]
+    },
     "person": {
         "fullName": "Vladislav Elizarov",
         "position": "Frontend Developer (React)",
