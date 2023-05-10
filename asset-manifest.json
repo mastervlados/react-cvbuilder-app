@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-cvbuilder-app/static/css/main.84427509.css",
+    "main.js": "/react-cvbuilder-app/static/js/main.95086544.js",
+    "static/media/photo.jpg": "/react-cvbuilder-app/static/media/photo.c1b13d8340cf4558b511.jpg",
+    "index.html": "/react-cvbuilder-app/index.html",
+    "main.84427509.css.map": "/react-cvbuilder-app/static/css/main.84427509.css.map",
+    "main.95086544.js.map": "/react-cvbuilder-app/static/js/main.95086544.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84427509.css",
+    "static/js/main.95086544.js"
+  ]
+}

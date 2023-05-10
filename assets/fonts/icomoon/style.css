@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1sp11z');
+  src:  url('fonts/icomoon.eot?1sp11z#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1sp11z') format('truetype'),
+    url('fonts/icomoon.woff?1sp11z') format('woff'),
+    url('fonts/icomoon.svg?1sp11z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegram:before {
+  content: "\e90a";
+}
+.icon-square:before {
+  content: "\e908";
+}
+.icon-circle:before {
+  content: "\e909";
+}
+.icon-yin-yang:before {
+  content: "\e900";
+}
+.icon-telegram-plane:before {
+  content: "\e901";
+}
+.icon-mobile-alt:before {
+  content: "\e902";
+}
+.icon-map-marker-alt:before {
+  content: "\e903";
+}
+.icon-github:before {
+  content: "\e904";
+}
+.icon-folder:before {
+  content: "\e905";
+}
+.icon-envelope:before {
+  content: "\e906";
+}
+.icon-award:before {
+  content: "\e907";
+}
