@@ -1,0 +1,34 @@
+@import '../../val.scss';
+
+li span.icon-square, li span.icon-circle {
+    font-size: $iconListSize;
+    color: $colorGray;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 2.5mm;
+}
+
+li span span {
+    font-weight: 300;
+}
+
+ul.large-icons-list {
+    & li {
+        margin-bottom: 1mm;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    & span {
+        font-size: $iconSize;
+        color: $colorGray;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        width: 5.5mm; 
+    }
+
+}

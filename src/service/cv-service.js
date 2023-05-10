@@ -86,6 +86,7 @@ export default class CVService {
         return {
             fullName: person.fullName,
             position: person.position,
+            prefix: `${person.fullName} ${person.prefix}`.replaceAll(" ", "").trim(),
             salary: {
                 amount: this._getNumberWithSpaces(person.salary.amount),
                 currencyCode: this._getCurrencyLabel(person.salary.currencyCode)
@@ -142,5 +143,38 @@ export default class CVService {
         })
 
         return keySkillsInCategory
+    }
+
+    getSoftSkills = () => {
+        return this.cvData.skills.soft
+    }
+
+    getLanguages = () => {
+        const languages = this.cvData.languages.map(([language, level]) => {
+            return [
+                language,
+                level.toUpperCase(),
+                defaultData.languageLevels[level]
+            ]
+        })
+
+        return languages
+    }
+
+    getHelpfulLinks = () => {
+        return defaultData.links
+    }
+
+    getAdditionalInformation = () => {
+        const {relocation, trips} = defaultData.information
+        return [
+            ...this.cvData.information,
+            this.staticData.relocation[relocation],
+            this.staticData.trips[trips]
+        ]
+    }
+
+    getAboutMe = () => {
+        return this.cvData.about
     }
 }

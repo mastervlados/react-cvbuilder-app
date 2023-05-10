@@ -14,11 +14,20 @@
             "Git(commit, push, pull, merge)",
             "Algorithms",
             "Data structures"
+        ],
+        "soft": [
+            "Ability to find and implement optimal solutions",
+            "Analytical thinking",
+            "Ability to ask questions",
+            "Can work autonomy",
+            "Responsible approach to work",
+            "Estimates"
         ]
     },
     "person": {
         "fullName": "Vladislav Elizarov",
         "position": "Frontend Developer (React)",
+        "prefix": "_FrontendDeveloperReactJS.CV",
         "salary": {
             "amount": 700,
             "currencyCode": 840
@@ -34,5 +43,14 @@
             "mail": "velizarovdev@gmail.com",
             "currentLocation": "spb"
         }
-    }
+    },
+    "languages": [
+        ["Russian", "na"],
+        ["English", "b1"]
+    ],
+    "information": [
+        "Touchtyping",
+        "Driver's license category B"
+    ],
+    "about": "I don't have commercial development experience yet. I plan to compensate for this shortcoming with my soft skills. I am developing in the direction of Frontend, learning React. I send my previous work experience in the cover letter"
 }

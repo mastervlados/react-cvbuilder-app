@@ -12,6 +12,9 @@ const PersonDetails = () => {
 
                     const details = getPersonDetails()
 
+                    /** Set Title */
+                    document.title = details.prefix
+
                     return (
                         <div className="person-details">
                             <h2>{details.fullName}</h2>

@@ -12,5 +12,29 @@
         "b2": "Upper Intermediate",
         "c1": "Advanced",
         "c2": "Proficiency"
+    },
+    "links": [
+        {
+            "alt": "Telegram",
+            "icon": "icon-telegram",
+            "url": "https://t.me/velizarovdev",
+            "label": "t.me/velizarovdev"
+        },
+        {
+            "alt": "GitHub",
+            "icon": "icon-github",
+            "url": "https://github.com/v-elizarov/",
+            "label": "github.com/v-elizarov"     
+        },
+        {
+            "alt": "CodeWars",
+            "icon": "icon-yin-yang",
+            "url": "https://www.codewars.com/users/v-elizarov/",
+            "label": "codewars.com/users/v-elizarov"      
+        }
+    ],
+    "information": {
+        "relocation": "relnot",
+        "trips": "trinot"    
     }
 }

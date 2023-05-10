@@ -17,13 +17,14 @@ const KeySkills = () => {
                         <div className="cv-element">
                             <h4>{getSectionLabel('htks')}</h4>
                             <div className="bold-line bold-line-cut"></div>
+                            {/* <!-- Frontend: first --> */}
                             <RenderSkills skills={frontend}/>
                             <p></p>
                             {/* <!-- Backend: second --> */}
-                            {/* {getKeySkillsFromCategory('backend')} */}
+                            <RenderSkills skills={backend}/>
                             <p></p>
                             {/* <!-- Other: last --> */}
-                            {/* {getKeySkillsFromCategory('other')} */}
+                            <RenderSkills skills={other}/>
                         </div>
                     )
                 }
@@ -33,7 +34,36 @@ const KeySkills = () => {
 }
 
 const RenderSkills = ({ skills }) => {
-    console.log(skills)
+    const listSkills = skills.map((item) => {
+
+        if (item.length > 1) {
+
+            const subSkills = item.map((subSkill) => {
+                if (item.indexOf(subSkill) !== 0) {
+                    return <h5>{subSkill}</h5>
+                }
+            })
+
+            return (
+                <>
+                    <h6>{item[0]}</h6>
+                    {'('}
+                        {subSkills}
+                    {') '}
+                </>
+
+            )
+        } else {
+            return <h6>{item[0]}</h6>
+        }
+        
+    })
+
+    return (
+        <>
+            { listSkills }
+        </>
+    )
 }
 
 export default KeySkills
