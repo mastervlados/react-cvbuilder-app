@@ -89,34 +89,6 @@
             "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
             "languages": "JavaScript",
             "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
-        },
-        {
-            "name": "CV Builder",
-            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
-            "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
-            "languages": "JavaScript",
-            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
-        },
-        {
-            "name": "CV Builder",
-            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
-            "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
-            "languages": "JavaScript",
-            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
-        },
-        {
-            "name": "CV Builder",
-            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
-            "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
-            "languages": "JavaScript",
-            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
-        },
-        {
-            "name": "CV Builder",
-            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
-            "description": "In the process of findin=ith up-to-date data",
-            "languages": "JavaScript",
-            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
         }
     ]
 }
