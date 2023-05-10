@@ -22,6 +22,7 @@ App provides you:
 - change the language of my CV: English, Russian available
 - **printable** webpage with up-to-date CV
 - working links to open my remote repos and open other resources
+- generate and download `*.pdf` files
 - function: with love to HR 😘
 
 ## Learn More

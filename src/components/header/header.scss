@@ -5,6 +5,10 @@ header {
     background-color: $colorLetterSpace;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
+.space {
+    display: inline;
+    margin: 0 2px;
+}
 
 h1 {
     font-size: $h1Size;

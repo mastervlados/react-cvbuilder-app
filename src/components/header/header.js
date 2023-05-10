@@ -2,6 +2,7 @@ import React, { Component } from "react"
 
 import './header.scss'
 
+
 export default class Header extends Component {
 
     state = {
@@ -26,7 +27,12 @@ export default class Header extends Component {
                     <div>
                         <input type="button" id="print" onClick={() => window.print()}/>
                         <label htmlFor="print">
-                            <img src="./assets/img/nav/print.png" alt="Print this CV"/>
+                            <img src={process.env.PUBLIC_URL + '/assets/img/nav/print-alt.png'} alt="Print CV"/>
+                        </label>
+                        <div className="space"></div>
+                        <input type="button" id="download" onClick={this.props.onDownloadPdf}/>
+                        <label htmlFor="download">
+                            <img src={process.env.PUBLIC_URL + '/assets/img/nav/pdf.png'} alt="Save CV PDF File"/>
                         </label>
                     </div>
                     <div>
@@ -34,13 +40,13 @@ export default class Header extends Component {
                             checked={this.state.language === 'en'} 
                             onChange={this.onLanguageChange}/>
                         <label htmlFor="en">
-                            <img src="./assets/img/nav/us.png" alt="English"/>
+                            <img src={process.env.PUBLIC_URL + '/assets/img/nav/us.png'} alt="English"/>
                         </label>
                         <input type="radio" id="ru" name="language" value="ru" 
                             checked={this.state.language === 'ru'} 
                             onChange={this.onLanguageChange}/>
                         <label htmlFor="ru">
-                            <img src="./assets/img/nav/ru.png" alt="Русский"/>
+                            <img src={process.env.PUBLIC_URL + '/assets/img/nav/ru.png'} alt="Русский"/>
                         </label>
                     </div>
                 </nav>
