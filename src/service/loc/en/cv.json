@@ -2,16 +2,16 @@
     "skills": {
         "frontend": [
             "ReactJS",
-            "ExtJS(Dialogues, Wizards, Forms)",
-            "JavaScript(ES5, ES6, ESNext)",
+            "JavaScript(ES6, ESNext)",
             "CSS(float, flex, grid, @media, Bootstrap, SCSS)",
             "HTML"
         ],
         "backend": [
-            "Databases(MongoDB, PostgreSQL)"
+            "SQL"
         ],
         "other": [
-            "Git(commit, push, pull, merge)",
+            "OOP",
+            "Git",
             "Algorithms",
             "Data structures"
         ],
@@ -50,7 +50,45 @@
     ],
     "information": [
         "Touchtyping",
-        "Driver's license category B"
+        "Driver's license category B",
+        "Able to work remotely"
     ],
-    "about": "I don't have commercial development experience yet. I plan to compensate for this shortcoming with my soft skills. I am developing in the direction of Frontend, learning React. I send my previous work experience in the cover letter"
+    "about": "I'm developing in the Frontend direction, learning React. I don't have commercial development experience yet. I plan to compensate for this shortcoming with my soft skills. For this reason, I'd like to join a team with a more experienced Frontend developer than me. I send my previous work experience in the cover letter",
+    "education": {
+        "stage": "eduba",
+        "items": [
+            {
+                "label": "Bachelor Degree in Computer Science",
+                "where": "University of Industrial Technologies and Design",
+                "place": "spb",
+                "details": "09.03.03 Computer Science in Economics",
+                "range": ["01.09.2015", "01.07.2020"]
+            }
+        ]
+    },
+    "certificates": [
+        {
+            "label": "Frontend-programmer",
+            "where": "GeekBrains",
+            "place": "mon",
+            "details": "",
+            "range": ["06.11.2022", "present"]
+        },
+        {
+            "label": "React + Redux - Professional Development",
+            "where": "Udemy",
+            "place": "son",
+            "details": "",
+            "range": ["27.10.2021", "16.06.2023"]
+        }
+    ],
+    "projects": [
+        {
+            "name": "CV Builder",
+            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
+            "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
+            "languages": "JavaScript",
+            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
+        }
+    ]
 }

@@ -31,3 +31,64 @@ h4 {text-transform: uppercase; color: $colorBorders; font-weight: 500;}
 .anthill div.ant:last-child {
     margin-bottom: 0;
 }
+
+.project-label {font-weight: 500;}
+.project-field::after {
+    content: ":";
+}
+.link-to-repo {text-decoration: none;}
+.icon-color {color: $colorGray;}
+.overhead {margin-top: 0.1cm;}
+
+.left-column {
+
+    min-width: $firstColumnWidth;
+    margin-right: $spaceBetweenLess;
+
+    span {
+        display: block;
+        font-size: $smallerFontSize;
+        font-weight: 300;
+    }
+}
+
+.right-column {
+    width: 100%;
+}
+
+.range::after {
+    content: " —";
+}
+
+.light {
+    font-weight: 300;
+
+    & .place-label::after {
+        content: " | ";
+    }
+
+    & .place-label, .place-location {
+        font-weight: inherit;
+    }
+
+    & .place-location {
+        font-size: $smallerFontSize;
+    }
+}
+
+strong {
+    font-weight: 500;
+}
+
+.award-size {
+    float: left;
+    font-size: $h3Size;
+}
+
+.link-to-repo, .folder-repo {
+    font-size: $smallerFontSize;
+}
+
+.folder-repo {
+    margin-right: 0.5mm;
+}

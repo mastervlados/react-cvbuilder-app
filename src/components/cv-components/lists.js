@@ -1,6 +1,6 @@
 import React from "react";
 import { CVServiceConsumer } from "../cv-service-context";
-import ItemList from "../item-list/item-list";
+import ItemList from "../item-list";
 
 const SoftSkills = () => {
     return (

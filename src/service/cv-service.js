@@ -76,6 +76,19 @@ export default class CVService {
     _getNumberWithSpaces(number) {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
     }
+
+    _getDateLabelFromDateWithFlag(date, isUpperFirstChar = true) {
+        if (date !== 'present' && date !== 'настоящее время') {
+            const dateLabel = date.split('.')
+            const [, month, year] = dateLabel
+            let str = `${this.staticData.months[parseInt(month)]} ${year}`
+            if(isUpperFirstChar){
+                str = str.charAt(0).toLowerCase() + str.slice(1)
+            }
+            return str
+        }
+        return date
+    }
     
     getSectionLabel = (key) => {
         return this.staticData.constants[key]
@@ -176,5 +189,57 @@ export default class CVService {
 
     getAboutMe = () => {
         return this.cvData.about
+    }
+
+    getEducationStage = () => {
+        const stage = this.cvData.education.stage
+        return this.staticData.education[stage]
+    }
+
+    getItemsByCategoryName = (category) => {
+
+        let data = []
+
+        switch (category) {
+            case 'education':
+                data = this.cvData.education.items
+                break
+            case 'certificates':
+                data = this.cvData.certificates
+                break
+            default:
+                break
+        }
+
+        data = data.map(({place, range, ...other}) => {
+            const placeLabel = this.staticData.location[place]
+            return {
+                ...other,
+                place: placeLabel,
+                range: [
+                    this._getDateLabelFromDateWithFlag(range[0], false),
+                    this._getDateLabelFromDateWithFlag(range[1])
+                ]
+            }
+        })
+
+        return data
+    }
+
+    getCompletedProjects = () => {
+        const data = this.cvData.projects.map(({url, ...project}) => {
+            const linkLabel = `github.com/...${url.substr(url.lastIndexOf('/'))}`
+            return {
+                ...project,
+                url,
+                linkLabel
+            }
+        })
+
+        return data
+    }
+
+    getProjectLabels = (key) => {
+        return this.staticData.projectLabels[key]
     }
 }

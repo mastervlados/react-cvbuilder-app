@@ -3,8 +3,13 @@ import React from "react";
 import './aside-block.scss'
 
 import KeySkills from "../key-skills";
-import { AdditionalInformation, HelpfulLinks, Languages, SoftSkills } from "../cv-aside-components";
-import AboutMe from "../about-me/about-me";
+import { 
+    AdditionalInformation, 
+    HelpfulLinks, 
+    Languages, 
+    SoftSkills 
+} from "../cv-components";
+import AboutMe from "../about-me";
 
 const AsideBlock = () => {
     return (
