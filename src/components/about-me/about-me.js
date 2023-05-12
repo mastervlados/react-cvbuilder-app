@@ -12,7 +12,7 @@ const AboutMe = () => {
                         <div className="cv-element">
                             <h4>{getSectionLabel('htab')}</h4>
                             <div className="bold-line bold-line-cut"></div>
-                            <p id="about-me">{getAboutMe()}</p>
+                            <p className="about-me">{getAboutMe()}</p>
                         </div>
                     )
                 }

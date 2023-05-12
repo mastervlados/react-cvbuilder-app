@@ -23,7 +23,7 @@ const RecentlyCompletedProjects = () => {
                                 <span className="project-field">{getProjectLabels('projdes')}</span>
                             </div>
                         )
-                        const rightSecond = <div className="right-column">{project.description}</div>
+                        const rightSecond = <div className="right-column"><p className="about-me">{project.description}</p></div>
 
                         const leftThird = (
                             <div className="left-column">
