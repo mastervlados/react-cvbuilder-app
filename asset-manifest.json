@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-cvbuilder-app/static/css/main.8398ab2c.css",
-    "main.js": "/react-cvbuilder-app/static/js/main.99a5e5f2.js",
+    "main.css": "/react-cvbuilder-app/static/css/main.df78f544.css",
+    "main.js": "/react-cvbuilder-app/static/js/main.cd4102fb.js",
     "static/js/703.4bc8059b.chunk.js": "/react-cvbuilder-app/static/js/703.4bc8059b.chunk.js",
     "static/js/635.2a66d224.chunk.js": "/react-cvbuilder-app/static/js/635.2a66d224.chunk.js",
     "static/media/photo.jpg": "/react-cvbuilder-app/static/media/photo.c1b13d8340cf4558b511.jpg",
     "index.html": "/react-cvbuilder-app/index.html",
-    "main.8398ab2c.css.map": "/react-cvbuilder-app/static/css/main.8398ab2c.css.map",
-    "main.99a5e5f2.js.map": "/react-cvbuilder-app/static/js/main.99a5e5f2.js.map",
+    "main.df78f544.css.map": "/react-cvbuilder-app/static/css/main.df78f544.css.map",
+    "main.cd4102fb.js.map": "/react-cvbuilder-app/static/js/main.cd4102fb.js.map",
     "703.4bc8059b.chunk.js.map": "/react-cvbuilder-app/static/js/703.4bc8059b.chunk.js.map",
     "635.2a66d224.chunk.js.map": "/react-cvbuilder-app/static/js/635.2a66d224.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8398ab2c.css",
-    "static/js/main.99a5e5f2.js"
+    "static/css/main.df78f544.css",
+    "static/js/main.cd4102fb.js"
   ]
 }
