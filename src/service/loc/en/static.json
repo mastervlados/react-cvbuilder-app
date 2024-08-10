@@ -41,9 +41,9 @@
     },
     "trips": {
         "trinot": "Not ready for business trips",
-        "triyes": "Ready for business tripsм",
+        "triyes": "Ready for business trips",
         "trisom": "Ready for short business trips",
-        "trirar": "Ready for rare business tripsм"
+        "trirar": "Ready for rare business trips"
     },
     "education": {
         "eduba": "Bachelor degree",

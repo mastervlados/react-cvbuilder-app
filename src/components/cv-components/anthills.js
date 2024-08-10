@@ -11,13 +11,13 @@ const RecentlyCompletedProjects = () => {
                     const projects = getCompletedProjects().map((project) => {
 
                         const leftFirst = <span className="project-label">{project.name}</span>
-                        const rightFirst = (
+                        const rightFirst = project.url !== '' && (
                             <span>
                                 <span className="icon-folder icon-color folder-repo"></span>
                                 <a href={project.url} alt={project.name} className="link-to-repo" target="_blank">{project.linkLabel}</a>
                             </span>
                         )
-
+       
                         const leftSecond = (
                             <div className="left-column">
                                 <span className="project-field">{getProjectLabels('projdes')}</span>

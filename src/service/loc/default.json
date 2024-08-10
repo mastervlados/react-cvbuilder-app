@@ -34,7 +34,7 @@
         }
     ],
     "information": {
-        "relocation": "relnot",
-        "trips": "trinot"    
+        "relocation": "relyes",
+        "trips": "triyes"    
     }
 }

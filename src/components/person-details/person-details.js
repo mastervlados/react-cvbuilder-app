@@ -11,7 +11,6 @@ const PersonDetails = () => {
                 ({ getPersonDetails }) => {
 
                     const details = getPersonDetails()
-
                     /** Set Title */
                     document.title = details.prefix
 
@@ -20,10 +19,13 @@ const PersonDetails = () => {
                             <h2>{details.fullName}</h2>
                             <div className="row">
                                 <h3>{details.position}</h3>
-                                <div id="salary">
-                                    <span id="sum">{details.salary.amount}</span>
-                                    <span id="currency">{details.salary.currencyCode}</span>
-                                </div>
+                                {
+                                    details.salary.showSalary &&
+                                    <div id="salary">
+                                        <span id="sum">{details.salary.amount}</span>
+                                        <span id="currency">{details.salary.currencyCode}</span>
+                                    </div>
+                                }
                             </div>
                             <p>{`
                                 ${details.info.birthday}, 

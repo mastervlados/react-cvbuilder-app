@@ -1,22 +1,26 @@
 {
     "skills": {
         "frontend": [
-            "ReactJS",
-            "JavaScript(ES6, ESNext)",
-            "CSS(float, flex, grid, @media, Bootstrap, SCSS)",
-            "HTML"
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "SCSS",
+            "JavaScript(TypeScript)",
+            "React",
+            "React Native",
+            "State(Redux, Mobx)"
         ],
         "backend": [
+            "REST API",
             "SQL"
         ],
         "other": [
-            "OOP",
             "Git",
             "Algorithms",
             "Data structures"
         ],
         "soft": [
-            "Ability to find and implement optimal solutions",
+            "Find and implement optimal solutions",
             "Analytical thinking",
             "Ability to ask questions",
             "Can work autonomy",
@@ -29,6 +33,7 @@
         "position": "Frontend Developer (React)",
         "prefix": "_FrontendDeveloperReactJS.CV",
         "salary": {
+            "showSalary": false,
             "amount": 700,
             "currencyCode": 840
         },
@@ -46,14 +51,13 @@
     },
     "languages": [
         ["Russian", "na"],
-        ["English", "b1"]
+        ["English", "b2"]
     ],
     "information": [
         "Touchtyping",
-        "Driver's license category B",
         "Able to work remotely"
     ],
-    "about": "I'm developing in the Frontend direction, learning React. I don't have commercial development experience yet. I plan to compensate for this shortcoming with my soft skills. For this reason, I'd like to join a team with a more experienced Frontend developer than me. I send my previous work experience in the cover letter",
+    "about": "I'm a Frontend developer with 3 years of experience. I don't have commercial development experience yet. To compensate this issue with my soft skills. I could join a team with a more experienced Frontend developer than me. My hard skills allow me to complete routine tasks when I work with React or React-typed frameworks.",
     "education": {
         "stage": "eduba",
         "items": [
@@ -72,7 +76,7 @@
             "where": "GeekBrains",
             "place": "mon",
             "details": "",
-            "range": ["06.11.2022", "present"]
+            "range": ["06.11.2022", "16.06.2024"]
         },
         {
             "label": "React + Redux - Professional Development",
@@ -84,11 +88,18 @@
     ],
     "projects": [
         {
-            "name": "CV Builder",
-            "url": "https://github.com/v-elizarov/react-cvbuilder-app",
-            "description": "In the process of finding my first job in IT, I’m facing with the fact - some employers need a CV in English, others in Russian. As soon as I got acquainted with the capabilities of React and Context API, an idea immediately came to my mind - to solve this problem qualitatively. I’m sure that my future HR managers will be comfortable using my application. They have the opportunity to choose the desired language and print my CV with up-to-date data",
-            "languages": "JavaScript",
-            "environments": "HTML, SCSS, @media, ReactJS, JSX, Context API, Webpack"
+            "name": "Workout log: Evil Plate",
+            "url": "",
+            "description": "There is a training diary for fitness trainings. Write your sport results when you complete an exercise in a gym. The app contains an indicator that shows you real-time result – current tonnage. The value is the different between previous workout volume and current. It helps you to be confident that you have properly loaded muscles for their growth! Russian and English localizations.",
+            "languages": "JavaScript, SQL",
+            "environments": "React Native, Redux"
+        },
+        {
+            "name": "Interno",
+            "url": "https://github.com/v-elizarov/react-mobx-interno",
+            "description": "Simple application (SPA) for home interior enjoyers. The app includes  landing page, projects gallery and simple blog with articles. User can visit the blog page and be able to select as multiple categories to sort articles. Same thing works for the project page but here we can pick only one category. To get more info about any project or read an article should go to right page with details.",
+            "languages": "TypeScript",
+            "environments": "Vite, React, Mobx, SCSS"
         }
     ]
 }

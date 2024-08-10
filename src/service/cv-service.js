@@ -101,6 +101,7 @@ export default class CVService {
             position: person.position,
             prefix: `${person.fullName} ${person.prefix}`.replaceAll(" ", "").trim(),
             salary: {
+                showSalary: person.salary.showSalary, 
                 amount: this._getNumberWithSpaces(person.salary.amount),
                 currencyCode: this._getCurrencyLabel(person.salary.currencyCode)
             },
